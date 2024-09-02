@@ -1,7 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
 .product {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #f9f9f9;
+    background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -48,6 +59,22 @@
 
 .variant {
     margin-top: 20px;
+}
+
+.variant > ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.variant > ul > li {
+    margin-right: 10px;
+}
+
+.variant > ul > li > img {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    border-radius: 5px;
 }
 
 .description {
