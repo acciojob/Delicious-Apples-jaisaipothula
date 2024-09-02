@@ -1,119 +1,34 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apple Varieties Portfolio</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <style>
-        body {
-            background-color: #f9f9f9;
-            font-family: Arial, sans-serif;
-        }
-
-        .product__photo {
-            margin-bottom: 20px;
-        }
-
-        .photo-container {
-            display: flex;
-            justify-content: center;
-            margin-bottom: 20px;
-        }
-
-        .photo-main > img {
-            width: 100%;
-            max-width: 400px;
-            border-radius: 10px;
-        }
-
-        .photo-album {
-            list-style: none;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-        }
-
-        .photo-album > li {
-            margin: 0 10px;
-        }
-
-        .photo-album > li > img {
-            width: 80px;
-            height: auto;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-
-        .price {
-            font-size: 24px;
-            color: #d9534f;
-            font-weight: bold;
-        }
-
-        .variant {
-            margin-top: 20px;
-        }
-
-        .description {
-            margin-top: 30px;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .add-to-cart {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            background-color: #5cb85c;
-            color: white;
-            text-align: center;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            margin-top: 20px;
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1 class="text-center mt-5">Apple Varieties</h1>
-
-        <div class="product__photo">
-            <div class="photo-container">
-                <div class="photo-main">
-                    <img src="green-apple.jpg" alt="Green Apple">
-                </div>
-            </div>
-
-            <ul class="photo-album">
-                <li><img src="green-apple-1.jpg" alt="Green Apple View 1"></li>
-                <li><img src="green-apple-2.jpg" alt="Green Apple View 2"></li>
-                <li><img src="green-apple-3.jpg" alt="Green Apple View 3"></li>
-            </ul>
-
-            <div class="price">$7.93</div>
-
-            <div class="variant">
-                <h5>Varieties:</h5>
-                <ul>
-                    <li>Green</li>
-                    <li>Yellow</li>
-                    <li>Orange</li>
-                    <li>Red</li>
-                </ul>
-            </div>
-
-            <div class="description">
-                <h4>BENEFITS</h4>
-                <p>Apples are rich in fiber and vitamin C. They are low in calories and have numerous health benefits, including improved heart health, weight loss, and reduced risk of diabetes.</p>
-            </div>
-
-            <button class="add-to-cart">ADD TO CART</button>
+<div class="product">
+    <div class="photo-container">
+        <div class="photo-main">
+            <img src="green-apple.jpg" alt="Green Apple" class="img-fluid">
         </div>
     </div>
-</body>
-</html>
+
+    <div class="photo-album">
+        <ul>
+            <li><img src="green-apple-1.jpg" alt="Green Apple View 1" class="img-fluid"></li>
+            <li><img src="green-apple-2.jpg" alt="Green Apple View 2" class="img-fluid"></li>
+            <li><img src="green-apple-3.jpg" alt="Green Apple View 3" class="img-fluid"></li>
+        </ul>
+    </div>
+
+    <div class="price">$7.93</div>
+
+    <div class="variant">
+        <h5>Varieties:</h5>
+        <ul>
+            <li>Green</li>
+            <li>Yellow</li>
+            <li>Orange</li>
+            <li>Red</li>
+        </ul>
+    </div>
+
+    <div class="description">
+        <h4>BENEFITS</h4>
+        <p>Apples are rich in fiber and vitamin C. They are low in calories and have numerous health benefits, including improved heart health, weight loss, and reduced risk of diabetes.</p>
+    </div>
+
+    <button class="add-to-cart">ADD TO CART</button>
+</div>
